@@ -1,8 +1,9 @@
 # kirokal-site
 
-旧ドメイン `kirocal.jp` を、同じパスのまま **https://meecal.app** へ転送する GitHub Pages（2026-10-30・アプリ名を MeeCal に変えたのに合わせて・konan0802/kirokal#1054）。
+iOSアプリ **KiroCal（キロカル）** の公開サイト（GitHub Pages → https://kirocal.jp ）。
 
-- 本体のサイトは [meecal-site](https://github.com/konan0802/meecal-site)（原本は kirokal リポジトリの `docs/store/site/`）
-- 配布済みの 1.0 のアプリと App Store のメタデータが kirocal.jp を指すので、このリポジトリとドメインは残す
-- 旧々ドメイン `kirokal.jp` は [kirokal-redirect](https://github.com/konan0802/kirokal-redirect) が同じく meecal.app へ転送する
-- 2026-10-10〜10-30 はここが KiroCal の本体サイトだった（履歴は git log）
+- 配信物: index / privacy / terms / support の静的HTML＋favicon＋CNAME
+- **原本は [kirokal](https://github.com/konan0802/kirokal) リポジトリの `docs/store/`**（md が一次資料・site/ が生成HTML）。修正は原本側で行い、このリポジトリへコピーして反映する
+- 旧ドメイン `kirokal.jp` は [kirokal-redirect](https://github.com/konan0802/kirokal-redirect) が同じパスの kirocal.jp へ転送する（2026-10-10・konan0802/kirokal#792）
+- リポジトリ名は据え置き（konan0802/kirokal#632 の決定）
+- 旧リポジトリ名 `wellpar-site`（旧名ドメイン wellpar.jp）からリネーム（2026-09-12・チケット047）
